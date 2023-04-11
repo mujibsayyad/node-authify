@@ -1,0 +1,28 @@
+{
+  "name": "node-authify",
+  "version": "1.0.1",
+  "description": "Node Login For MERN Stack",
+  "keywords": [
+    "node login",
+    "node auth",
+    "express login",
+    "express auth",
+    "mern login",
+    "mern auth"
+  ],
+  "license": "MIT",
+  "author": "Mujib Sayyad (github.com/mujibsayyad)",
+  "homepage": "https://github.com/mujibsayyad/node-authify",
+  "repository": "github:mujibsayyad/node-authify",
+  "bugs": "https://github.com/mujibsayyad/node-authify/issues",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "terser ./src/*.js -o ./dist/index.js --compress --mangle"
+  },
+  "peerDependencies": {
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "terser": "^5.16.9"
+  }
+}

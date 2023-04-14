@@ -1,6 +1,6 @@
 {
   "name": "node-authify",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Node Login For MERN Stack",
   "keywords": [
     "node login",
